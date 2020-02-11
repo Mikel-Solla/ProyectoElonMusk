@@ -1,0 +1,19 @@
+body{
+	background:url(img/sistemaSolar.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: white;
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+footer>li{
+	color: lightgrey;
+	text-decoration: none;
+}
