@@ -1,8 +1,10 @@
 body{
 	background:url(img/sistemaSolar.jpg);
 	background-repeat: no-repeat;
-	background-size: contain;
-	color: white;
+	background-size: cover;
+	color: #1A879A;
+	text-align: center;
+	max-width: 100%;
 }
 
 ul{
@@ -10,10 +12,42 @@ ul{
 }
 a{
 	text-decoration: none;
-	color: white;
+	color: #1A879A;
 }
 
 footer>li{
 	color: lightgrey;
 	text-decoration: none;
 }
+
+main{
+	margin: 0 auto;
+}
+
+#menu{
+	max-width: 100%;
+	height: 8vh;
+	
+}
+
+#menu>li{
+	display: inline-block;
+	padding: 30px;
+	font-size: 20px;
+}
+
+img{
+	width: 50px;
+	height: 50px;
+}
+
+#logo{
+	padding-left: 70px;
+	padding-right: 70px; 
+}
+
+h3{
+	padding: 10px;
+	background-color: white;
+}
+
