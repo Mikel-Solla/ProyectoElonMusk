@@ -1,18 +1,20 @@
 body{
-	background:url(img/sistemaSolar.jpg);
+	background:url(nebula.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #1A879A;
 	text-align: center;
 	max-width: 100%;
+	font-family: 'Nova Flat', cursive;
 }
 
 ul{
 	list-style: none;
+	padding: 0;
 }
 a{
 	text-decoration: none;
-	color: #1A879A;
+	color: #09526C;
 }
 
 footer>li{
@@ -25,29 +27,79 @@ main{
 }
 
 #menu{
-	max-width: 100%;
+	
 	height: 8vh;
 	
 }
 
-#menu>li{
-	display: inline-block;
-	padding: 30px;
-	font-size: 20px;
-}
-
 img{
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 40px;
 }
 
-#logo{
-	padding-left: 70px;
-	padding-right: 70px; 
-}
 
 h3{
 	padding: 10px;
-	background-color: white;
 }
+
+#menu>li{
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#menu> li:hover{
+	background-color: #1B3B5B;
+
+}
+
+#menu>li{
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+
+#logo:hover
+{
+	background-color: none;
+}
+
+
+
+#otroPg:hover{
+	background-color: #1B3B5B;
+}
+
+#otroPg{
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
